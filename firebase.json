@@ -6,6 +6,7 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
+    "site": "mini-linkedin-8008",
     "public": "dist",
     "ignore": [
       "firebase.json",

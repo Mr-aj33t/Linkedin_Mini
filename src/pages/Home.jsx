@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { collection, addDoc, query, orderBy, onSnapshot } from 'firebase/firestore';
+import { collection, addDoc, query, orderBy, onSnapshot, serverTimestamp } from 'firebase/firestore';
 import { db } from '../firebase';
 import { useAuth } from '../hooks/useAuth';
 import PostCard from '../components/PostCard';
@@ -38,10 +38,10 @@ function Home() {
       
       await addDoc(collection(db, 'posts'), {
         content: newPost,
-        authorId: currentUser.uid, // Make sure this matches the query
+        authorId: currentUser.uid,
         authorName: userProfile?.name || currentUser.email,
         authorEmail: currentUser.email,
-        createdAt: new Date(),
+        createdAt: serverTimestamp(), // <-- Use Firestore server timestamp
         likes: [],
         likeCount: 0
       });
