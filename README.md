@@ -2,6 +2,8 @@
 
 A modern, responsive LinkedIn-like community platform built with React, Firebase, and Vite.
 
+## 🔗 Live Demo: [https://linkedin-mini-d119d.web.app](https://mini-linkedin-8008.web.app/)
+
 ## ✨ Features
 
 - **User Authentication**: Register/Login with email and password using Firebase Auth
@@ -164,23 +166,3 @@ src/
 - Firestore security rules should be configured for production
 - Client-side route protection
 - User-specific data access control
-
-## 📝 License
-
-This project is licensed under the MIT License.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📞 Support
-
-For support, please open an issue in the repository or contact the development team.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
