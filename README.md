@@ -2,7 +2,7 @@
 
 A modern, responsive LinkedIn-like community platform built with React, Firebase, and Vite.
 
-## 🔗 Live Demo: [https://linkedin-mini-d119d.web.app](https://mini-linkedin-8008.web.app/)
+## 🔗 Live Demo: [https://mini-linkedin-8008.web.app](https://mini-linkedin-8008.web.app/)
 
 ## ✨ Features
 
